@@ -1,8 +1,8 @@
-﻿using DuAnDemo2API.IRepository;
-using DuAnDemo2API.Models;
+﻿using DuAnThucTapNhom3.IRepository;
+using DuAnThucTapNhom3.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace DuAnDemo2API.Controllers
+namespace DuAnThucTapNhom3.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]

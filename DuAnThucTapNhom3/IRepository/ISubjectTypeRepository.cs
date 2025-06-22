@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using DuAnDemo2API.Models;
+using DuAnThucTapNhom3.Models;
 
-namespace DuAnDemo2API.IRepository
+namespace DuAnThucTapNhom3.IRepository
 {
     public interface ISubjectTypeRepository
     {

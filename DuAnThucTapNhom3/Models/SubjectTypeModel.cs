@@ -1,9 +1,9 @@
-﻿using DuAnDemo2API.Models;
+﻿using DuAnThucTapNhom3.Models;
 using System;
 using System.Collections.Generic;
 using System.Text.Json.Serialization;
 
-namespace DuAnDemo2API.Models
+namespace DuAnThucTapNhom3.Models
 {
     public class SubjectTypeModel
     {

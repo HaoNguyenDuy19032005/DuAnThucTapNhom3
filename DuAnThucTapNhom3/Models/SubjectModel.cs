@@ -1,7 +1,7 @@
 ﻿using System;
-using DuAnDemo2API;
+using DuAnThucTapNhom3;
 
-namespace DuAnDemo2API.Models
+namespace DuAnThucTapNhom3.Models
 {
     public class SubjectModel
     {

@@ -1,11 +1,11 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using DuAnDemo2API.Models;
-using DuAnDemo2API.Data;
-using DuAnDemo2API.IRepository;
+using DuAnThucTapNhom3.Models;
+using DuAnThucTapNhom3.Data;
+using DuAnThucTapNhom3.IRepository;
 using Microsoft.EntityFrameworkCore;
 
-namespace DuAnDemo2API.Service
+namespace DuAnThucTapNhom3.Service
 {
     public class SubjectTypeService : ISubjectTypeRepository
     {

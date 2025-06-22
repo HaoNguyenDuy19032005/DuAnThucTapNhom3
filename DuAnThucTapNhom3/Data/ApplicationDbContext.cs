@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using DuAnDemo2API.Models;
+using DuAnThucTapNhom3.Models;
 
-namespace DuAnDemo2API.Data
+namespace DuAnThucTapNhom3.Data
 {
     public class ApplicationDbContext : DbContext
     {

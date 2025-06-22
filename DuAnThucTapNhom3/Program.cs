@@ -1,6 +1,16 @@
+using DuAnThucTapNhom3.Data;
+using DuAnThucTapNhom3.IRepository;
+using DuAnThucTapNhom3.Service;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+builder.Services.AddScoped<ISubjectRepository, SubjectService>();
+builder.Services.AddScoped<ISubjectTypeRepository, SubjectTypeService>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
